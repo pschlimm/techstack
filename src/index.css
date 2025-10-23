@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --atera-primary: #00b388;
+  --atera-primary-dark: #009e78;
+  --atera-focus: #bff0e3;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f1f5f9;
+}
+
+#root {
+  min-height: 100vh;
+}
