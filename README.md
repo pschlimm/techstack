@@ -29,6 +29,8 @@ Der Build erzeugt ein statisches `dist/`-Verzeichnis, das z. B. über Vercel a
 
 Das Repository enthält eine `vercel.json`, die Vercel explizit mitteilt, dass `npm run build` ausgeführt werden soll und das statische Ergebnis im Ordner `dist/` liegt. Push einfach diesen Stand auf dein GitHub-Repository und klicke anschließend in Vercel auf **Redeploy** – Vercel übernimmt Installation, Build und das Ausliefern ohne weitere Schritte.
 
+> **Hinweis:** In den Vercel-Build-Logs muss beim Redeploy der neueste Commit erscheinen (z. B. `Add Vercel config for one-click redeploy`). Falls dort noch `41ec7fb` oder ein älterer Commit steht, ist der aktuelle Stand nicht gepusht und Vercel findet deshalb keine `package.json` im Repository-Root.
+
 ## Features
 
 - Zwei Layout-Modi (Cube & Lanes) mit persistierten Positionen je Layout
