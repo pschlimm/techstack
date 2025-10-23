@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --atera-primary: #00B388;
+  --atera-primary-dark: #009E78;
+  --atera-focus: #BFF0E3;
+}
+
+html, body, #root {
+  height: 100%;
+}
